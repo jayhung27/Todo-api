@@ -15,7 +15,6 @@ app.get('/', function(req, res) {
 });
 
 // GET /todos?/completed=true
-// test for recommit 2
 app.get('/todos', function(req, res) {
     var query = req.query;
     var where = {};
